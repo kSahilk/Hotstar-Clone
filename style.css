@@ -1,0 +1,207 @@
+body{
+background-color: #0c111b;
+font-family: roboto, sans-serif;
+color: white;
+box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    
+    display: flex;
+    background-color: #0c111b;
+    box-sizing: border-box;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.logoimg1 img{
+    /* width: 150px; */
+    margin-left: 17px;
+    margin-top:6px;
+    height: 70px;
+    display: block;
+    object-fit: cover;
+}
+.logoimg1{
+width: 9%;
+padding-left: 7px;
+}
+.navlist {
+    height: 123px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 100px;
+     
+}
+.navitems{
+    width: 25%;
+    color: rgb(255, 255, 255);
+    /* font-size: 17px; */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+.navitems li{
+    padding: 0px 7px;
+    margin :22px 8px;
+}
+
+.navright{
+    display: flex;
+   /* flex-direction: row-reverse; */
+   padding-left: 415px;
+    align-items: center;
+    justify-content: right;
+}
+.Subscribe{
+    background-color: #1f80e0;
+    color: white;
+    height: 30px;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 10px;
+    
+}
+.search {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background-color: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    width: 200px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+ }
+
+ .search:focus {
+    width: 250px;
+    border-color: #1f80e0;
+ }
+.navrightlogin{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-right: 20px;
+    
+}
+.navright li{
+    margin: 15px 4px;
+    padding: 12px 12px;
+}
+.loki{
+    width: 100%;
+    /* position: relative; */
+    margin: 12px auto;
+    
+    overflow-x: hidden;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 466px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #030b17 80%, #0c111b00);
+    margin-top: 80px;
+    object-fit: cover;
+}
+.lokileft{
+width: 30%;
+margin: 0px 12px;
+}
+
+.lokileft h1 {
+    /* padding-left: 4px; */
+    font-weight: bolder;
+    text-transform: capitalize;
+
+}
+.lokileft2{
+    margin: 6px 0px;
+    /* padding: 12px 8px; */
+    font-weight: lighter;
+    font-size: 17px;
+    /* padding-left: 5px; */
+
+}
+.lokiright img{
+    height: 405px;
+    width: 689px;
+    border: none;
+    border-radius: 9px;
+    margin: 20px 0px;
+    padding: 8px 0px;
+}
+.images{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* width: 86%; */
+    margin-left: 18px;
+}
+.images li{
+    padding: 12px 8px;
+    
+}
+.images li img{
+    border-radius: 10px;
+    width: 240px;
+    height: 136px;
+}
+.Recommended{
+    color: #fff;
+    opacity: 0.9;
+    /* position: static; */
+    padding-left: 33px;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 14px 0px;
+    margin-left: 20px;
+}
+.posters{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* width: 86%; */
+    margin-left: 29px;
+}
+.posters li{
+    padding: 4px 0.75px;
+    margin-left: 18px;
+}
+.posters li img{
+    width: 145px;
+    height: 200px;
+    border-radius: 10px;
+}
+.last p{
+    margin-left: 20px;
+}
+.english{
+    color: grey;
+    
+}
+.para{
+    margin-left: 20px;
+}
